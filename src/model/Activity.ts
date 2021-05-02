@@ -21,7 +21,7 @@ class Activity {
     name: string;
 
     @CreateDateColumn()
-    activy_date: Date;
+    activity_date: Date;
 
     @Column()
     course_unit_id: string;
@@ -30,4 +30,4 @@ class Activity {
     created_at: Date;
 }
 
-export {Activity}
+export {Activity};

@@ -27,4 +27,4 @@ class CourseUnit {
     created_at: Date;
 }
 
-export {CourseUnit}
+export {CourseUnit};
