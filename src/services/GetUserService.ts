@@ -1,5 +1,5 @@
 import { getRepository } from "typeorm"
-import { User } from "../model/User";
+import { User } from "../models/User";
 
 interface UserData {
     id?:string

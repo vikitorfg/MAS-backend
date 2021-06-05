@@ -6,7 +6,7 @@
     "password":"postgres2",
     "database":"mas",
     "migrations":["./src/databases/migrations/**.ts"],
-    "entities":["./src/model/*.ts"],
+    "entities":["./src/models/*.ts"],
     "cli": {
         "migrationsDir": "./src/databases/migrations"
     }

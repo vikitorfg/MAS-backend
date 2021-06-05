@@ -1,7 +1,7 @@
 import {Column, CreateDateColumn, Entity, OneToMany, PrimaryColumn} from "typeorm";
 import {v4 as uuid} from 'uuid';
 
-import {Activity} from './Activity';
+import {Activy} from './Activy';
 
 @Entity("course_units")
 class CourseUnit {
@@ -24,8 +24,8 @@ class CourseUnit {
     @CreateDateColumn()
     created_at: Date;
 
-    @OneToMany(() => Activity, activity => activity.course_unit)
-    activies: Activity[]
+    @OneToMany(() => Activy, activy => activy.course_unit)
+    activies: Activy[]
 }
 
 export {CourseUnit};
